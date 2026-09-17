@@ -39,7 +39,7 @@ export function GlassChat() {
         </span>
       </div>
       <p className="mt-2 text-sm text-[var(--slate)]">
-        Originalet sa “OpenAI-klar”. Den här rutan är medvetet offline.
+        Originalet antydde en moln-AI. Den här rutan är medvetet offline.
       </p>
       <div className="mt-4 max-h-72 space-y-3 overflow-y-auto rounded-2xl bg-[var(--cream)] p-4">
         {log.map((row, i) => (

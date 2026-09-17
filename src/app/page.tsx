@@ -81,7 +81,7 @@ export default function Home() {
             <p className="mt-5 max-w-xl text-base leading-7 text-[var(--slate)]">
               En tänkt kiosk för barnfamiljer och förbipasserande. Originalet såg ut som
               ett riktigt stånd i Palma. Revivalen behåller värmen, men släpper mejl,
-              årtal och “1000+ glassar”.
+              årtal och påhittade serveringssiffror.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
@@ -147,8 +147,8 @@ export default function Home() {
             <h2 className="display mt-3 text-3xl sm:text-5xl">Tre värdar i ett exempel, inte tre mejladresser.</h2>
             <p className="mt-4 text-sm leading-7 text-[var(--slate)]">
               Idéen är enkel: en god glass ska vara snabb att få och serverad med bra
-              energi. Originalets personliga mejl är borttagen. Här finns ingen Jakob
-              att skriva till.
+              energi. Originalets personliga mejl är borttagen. Här finns ingen
+              person att skriva till.
             </p>
             <ul className="mt-8 space-y-3 text-sm leading-6">
               <li className="rounded-2xl bg-white px-4 py-3 ring-1 ring-[var(--ink)]/8">
@@ -205,8 +205,8 @@ export default function Home() {
               </p>
               <h2 className="display mt-3 text-3xl sm:text-5xl">Fråga om strut och topping — lokalt.</h2>
               <p className="mt-4 text-sm leading-7 text-[var(--slate)]">
-                Layouten från originalet är kvar. Integrationen är det inte. Inget
-                “OpenAI-klar”, inget preview-demo som låtsas vara en produkt.
+                Layouten från originalet är kvar. Integrationen är det inte. Ingen
+                påstådd moln-AI, inget preview-demo som låtsas vara en produkt.
               </p>
             </div>
             <GlassChat />
@@ -217,8 +217,8 @@ export default function Home() {
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--cocoa)]">Kontakt</p>
           <h2 className="display mt-3 text-3xl sm:text-5xl">Ingen mejl. Ingen blankett som skickar.</h2>
           <p className="mt-4 text-sm leading-7 text-[var(--slate)]">
-            Originalet hade `jakob@dg97.se` och ett formulär som såg levande ut. Här
-            står strukturen kvar som illustration: namn, ämne, meddelande — utan action.
+            Originalet hade en privat mejladress och ett formulär som såg levande ut.
+            Här står strukturen kvar som illustration: namn, ämne, meddelande — utan action.
           </p>
           <div className="scoop-shadow mt-8 space-y-3 rounded-[1.8rem] bg-white p-6">
             <label className="block text-sm">
