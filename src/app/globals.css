@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #fefcf4;
+  --custard: #fef4df;
+  --berry: #f1383e;
+  --scoop: #ff716f;
+  --lemon: #ffbe19;
+  --sky: #41b6e2;
+  --cocoa: #953d00;
+  --ink: #1d2a37;
+  --slate: #465463;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+.display {
+  font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+}
+
+.scoop-shadow {
+  box-shadow: 8px 10px 0 color-mix(in srgb, var(--ink) 12%, transparent);
+}
